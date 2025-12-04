@@ -1,0 +1,73 @@
+body {
+    background-color: #000;
+    color: #f2d16b;
+    font-family: "Poppins", sans-serif;
+}
+.navbar {
+    background-color: #111 !important;
+    border-bottom: 2px solid #f2d16b;
+}
+.navbar-brand, .nav-link {
+    color: #f2d16b !important;
+    font-weight: 600;
+}
+.jumbotron-custom {
+    position: relative;
+    padding: 150px 0;
+    background-image: url('jumbotron.jpeg');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    overflow: hidden;
+}
+.jumbotron-custom::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+    z-index: 1;
+}
+.jumbotron-content {
+    position: relative;
+    z-index: 2;
+}
+.jumbotron-content img {
+    border: 3px solid #f2d16b;
+    width: 150px;
+    height: 150px;
+}
+.jumbotron-content h2 {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-top: 20px;
+}
+.jumbotron-content p {
+    font-size: 1.5rem;
+    margin-top: 10px;
+}
+h2, h3, h5 {
+    color: #f4d98c;
+}
+.card {
+    background-color: #111;
+    border: 1px solid #f2d16b44;
+    color: #f2d16b;
+}
+.btn-gold {
+    background-color: #f2d16b;
+    color: #000;
+    font-weight: 600;
+}
+.btn-gold:hover {
+    background-color: #947929;
+    color: #ffffff;
+}
+input, textarea {
+    background-color: #111 !important;
+    border: 1px solid #f2d16b88 !important;
+    color: #f2d16b !important;
+}
